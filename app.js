@@ -18,7 +18,10 @@ function clickHandler() {
     //calling server for processing
    fetch(getTransletUrl(inputText))
    .then(response => response.json())
-   .then(json=>console.log(json.contents.translated))
+   .then(json=>{
+       var outputText= json.contents.translated;
+    outputDiv.innerHTML=outputText;
+})
 
 };
 
