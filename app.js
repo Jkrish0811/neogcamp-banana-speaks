@@ -1,2 +1,6 @@
-var username = prompt("give your user name");
-alert("this alert is working " + username);
+var btnTranslet = document.querySelector("#btn-translet");
+
+btnTranslet.addEventListener("click",function clickEventHandler() {
+    console.log("clicked")
+
+})
