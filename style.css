@@ -1,0 +1,44 @@
+
+#txt-input{
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    height: 10vh;
+    margin: auto;
+    padding: 1rem;
+}
+#output {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    height:10vh;
+    border: 1px solid black ;
+    margin: auto;
+    padding: 1rem;
+    
+}
+h1 {
+    color: black;
+    border: 2px solid blue;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: cornsilk;
+}
+h2{
+    text-align: center;
+    width: fit-content;    
+    background-color: chartreuse;
+    font-size: large;
+    margin: auto;
+}
+#btn-translet {
+    margin: auto;
+    text-align: justify;
+}
+.ftrpara{
+    text-align: center;
+
+}
+
