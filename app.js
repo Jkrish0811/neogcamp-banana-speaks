@@ -1,1 +1,2 @@
-console.log("hi, script is working from different file!")
+var username = prompt("give your user name");
+alert("this alert is working " + username);
