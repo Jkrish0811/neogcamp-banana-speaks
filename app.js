@@ -4,7 +4,7 @@ var txtInput = document.querySelector("#txt-input");
 
 var outputDiv = document.querySelector("#output");
 
-var serverUrl ="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverUrl ="https://api.funtranslations.com/translate/dothraki.json"
 
 function getTransletUrl(text) {
     return serverUrl +"?"+"text="+ text
@@ -18,7 +18,7 @@ function clickHandler() {
     //calling server for processing
    fetch(getTransletUrl(inputText))
    .then(response => response.json())
-   .then(json=>console.log(json))
+   .then(json=>console.log(json.contents.translated))
 
 };
 
