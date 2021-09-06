@@ -1,0 +1,1 @@
+console.log("hi, script is working from different file!")
