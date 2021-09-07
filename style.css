@@ -1,5 +1,4 @@
 .container{
-    background-color: aqua;
     width: 70%;
     height: 60vh;
     margin: auto;
@@ -38,11 +37,13 @@
 }
 h1 {
     color: black;
+    height: 10vh;
     padding: 1rem;
     margin: auto;
     text-align: center;
     background-color:yellow;
     border-top-left-radius: 1rem;
+
 }
 h2{ text-align:justify;
     width: fit-content;    
