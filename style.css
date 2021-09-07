@@ -1,53 +1,55 @@
 .container{
     background-color: aqua;
-    width: 50%;
+    width: 70%;
     height: 60vh;
     margin: auto;
+    padding: 1rem;
 }
 #btn-center {
     display: flex;
     width: max-content;
     margin: auto;
     padding: 1rem;
-    background-color: rgb(147, 177, 149);
     border-radius: .5rem;    
 }
-
+#txtareadiv{
+    margin: 1rem;
+}
 
 #txt-input{
     display: flex;
     justify-self: center;
-    width: 50%;
+    width: 70%;
     height: 10vh;
     margin: auto;
     padding: 1rem;
 }
 #output {
     display: flex;
-    justify-self: center;
-    width: 50%;
+    justify-self: flex-start;
+    width: 70%;
     height:10vh;
     border: 1px solid black ;
     margin: auto;
     padding: 1rem;
     background-color: white;
+
     
 }
 h1 {
     color: black;
-    border: 2px solid blue;
-    border-radius: 1rem;
-    padding: 10px;
+    padding: 1rem;
     margin: auto;
     text-align: center;
-    background-color: cornsilk;
+    background-color:yellow;
+    border-top-left-radius: 1rem;
 }
-h2{
-    text-align: center;
+h2{ text-align:justify;
     width: fit-content;    
-    background-color: chartreuse;
     font-size: large;
     margin: auto;
+    padding: 1rem;
+    
 }
 #btn-translet {
     color: black;
@@ -57,15 +59,17 @@ h2{
     
 }
 footer{
-    position: fixed;
-    bottom: 0%;
+    
+
 }
 .ftrpara{
     display: block;
+    height: auto;
     margin: auto;
     padding: 1rem;
     text-align: center;
     background-color: yellow;
+    border-bottom-right-radius: 1rem;
 
 }
 
